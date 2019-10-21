@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="358dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/teste1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Zup Way"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <View
+        android:layout_width="90dp"
+        android:layout_height="5dp"
+        android:layout_marginLeft="1dp"
+        android:background="@color/colorZup" />
+
+    <TextView
+        android:layout_width="369dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="8dp"
+        android:text="Nascemos da necessidade de escalar a transformação a transformação digital, co-criando soluções digitais com as maiores empresas do Brasil.
+Nossa cultura é focada em inovação constante, apoiada em expertise prática, oferecendo o máximo de valor para o seu modelo de negócio.
+"
+        android:textSize="17sp" />
+
+    <Button
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="4sp"
+        android:background="@color/Botao"
+        android:text="Seja um zupper"
+        android:textAllCaps="false"
+        android:textColor="@color/corBotao"
+        android:textSize="15dp" />
+
+
+</LinearLayout>
+
+
